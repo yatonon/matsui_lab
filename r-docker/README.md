@@ -17,10 +17,3 @@ docker exec -it r_sudio_docker bash
 
 - username: rstudio
 - password: 12345678
-
-### Latex の使い方
-編集したtexファイルをhoge.texとした場合、以下のようにしてpdfに変換することができます。
-```shell
-platex hoge.tex
-dvipdfmx hoge.dvi
-```
