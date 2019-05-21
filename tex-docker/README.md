@@ -1,6 +1,6 @@
 ```shell
 docker build . -t tex/docker
-docker run -it --name tex_docker -v $(pwd):/home/latex/tex_docker tex/docker
+docker run -it --name tex_docker -v $(pwd):/home/latex/tex-docker tex/docker
 ```
 
 ### Latex の使い方
